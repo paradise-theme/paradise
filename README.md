@@ -8,6 +8,7 @@
 
 # Installation
 ## Clone repo
+
 ```
   git clone https://github.com/Manas140/paradise.git && cd paradise
 ```
@@ -15,6 +16,7 @@
 <p align="center">
   <img src="./paradise-dark.png">
 </p>
+
 ```
   ./install.sh d
 ```
@@ -22,6 +24,7 @@
 <p align="center">
   <img src="./paradise-light.png">
 </p>
+
 ```
   ./install.sh l
 ```
