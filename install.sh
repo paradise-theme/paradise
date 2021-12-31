@@ -10,8 +10,9 @@ help(){
     ${cb}d:${cg} dark theme\n"
 }
 case $1 in 
-  -l*|--l*|l*) theme="light"; cp -r light/* $HOME/.config/;;
-  -d*|--d*|d*) theme="dark"; cp -r dark/* $HOME/.config/;;
+  -l*|--l*|l*) theme="light";;
+  -d*|--d*|d*) theme="dark";;
   *) help && exit 1;;
 esac
+for a in $(ls $theme --hide powershell); do cp -r $theme/$a $HOME/.config/.; done
 printf "${cg}[*] Theme $theme Installed.\n"
