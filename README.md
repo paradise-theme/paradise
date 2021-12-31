@@ -28,3 +28,14 @@
 ```
   ./install.sh l
 ```
+
+## Windows user
+1. Open the settings section by pressing `C+,`
+2. You will see a setting button on your bottom left corner and press it
+3. Your default editor will show up then scroll down to a part where it says "schemes"
+4. Copy the content from the `powershell.json` and paste it in
+5. Tada~ your done :D
+
+<p align="center">
+  <img src="./powershell-paradise.png">
+</p>
