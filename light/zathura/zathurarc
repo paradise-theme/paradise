@@ -1,0 +1,48 @@
+set selection-clipboard clipboard
+set window-title-home-tilde true
+set statusbar-home-tilde true
+set adjust-open "best-fit"
+
+set font "Jetbrains Mono"
+
+set notification-error-fg "#B66467"
+set notification-error-bg "#E8E3E3"
+set notification-warning-fg "#D9BC8C" 
+set notification-warning-bg "#1C1C1C"
+set notification-fg "#151515"
+set notification-bg "#E8E3E3"
+
+set completion-fg "#151515"
+set completion-bg "#E1DCDC"
+set completion-group-fg "#151515"
+set completion-group-bg "#E1DCDC"
+set completion-highlight-fg "#1C1C1C"
+set completion-highlight-bg "#E8E3E3"
+
+set index-fg "#151515"
+set index-bg "#E8E3E3"
+set index-active-fg "#191919"
+set index-active-bg "#E8E3E3"
+
+set inputbar-fg "#151515"
+set inputbar-bg "#E8E3E3"
+set statusbar-fg "#151515"
+set statusbar-bg "#E8E3E3"
+
+set highlight-color "#D9BC8C" 
+set highlight-active-color "#A988B0"
+
+set default-fg "#151515"
+set default-bg "#E8E3E3"
+
+set render-loading true
+set render-loading-bg "#151515"
+set render-loading-fg "#E8E3E3"
+
+set recolor-lightcolor "#E8E3E3"
+set recolor-darkcolor "#151515"
+
+set adjust-open width
+set recolor true
+map <C-Tab> toggle_statusbar
+set guioptions ""
