@@ -33,9 +33,14 @@
 1. Open the settings section by pressing `C+,`
 2. You will see a setting button on your bottom left corner and press it
 3. Your default editor will show up then scroll down to a part where it says "schemes"
-4. Copy the content from the `powershell.json` and paste it in
+4. Copy the content from `dark/powershell/powershell.json` and paste it in. If you wanna use dark theme
+  > Copy the content from `light/powershell/powershell.json` and paste it in. **WARNING: YOUR EYE MAY SPOIL AS POWERSHELL RENDER DIFFERENTLY**
 5. Tada! Your done :D
 
 <p align="center">
-  <img src="./powershell-paradise.png">
+  <img src="./paradise-powershell_dark.png">
+</p>
+
+<p align="center">
+  <img src="./paradise-powershell_light.png">
 </p>
