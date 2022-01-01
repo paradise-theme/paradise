@@ -20,12 +20,12 @@
 ### Install dark
 
 ```
-  ./install.sh d
+  ./install.sh d (or) make THEME='dark' install-all
 ```
 ### Install light
 
 ```
-  ./install.sh l
+  ./install.sh l (or) make THEME='light' install-all
 ```
 
 ## Windows
