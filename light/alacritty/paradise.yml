@@ -1,36 +1,3 @@
-# Terminal Emulator Settings
-window:
-  padding:
-    x: 20
-    y: 20
-  scrolling:
-    history: 15
-
-# Setting zsh as the default shell
-shell:
-    program: /bin/zsh
-
-# Font
-font:
-  normal:
-    family: JetBrains Mono
-    style: Medium
-
-  bold:
-    family: JetBrains Mono
-    style: Bold
-
-  italic:
-    family: JetBrains Mono
-    style: Italic
-
-  bold_italic:
-    family: JetBrains Mono
-    style: Bold Italic
-
-  size: 9.5
-
-# Colors
 colors:
   # Default colors
   primary:
@@ -58,6 +25,3 @@ colors:
     magenta: '#A988B0'
     cyan:    '#8AA6A2'
     white:   '#151515'
-
-# Apply Settings without relaunching
-live_config_reload: true
