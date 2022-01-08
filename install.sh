@@ -24,17 +24,24 @@ while true; do
   shift
 done
 
-for a in $(ls $theme --hide powershell); do
+if [ "$theme" = "" ]; then
+  printf "${cr}[*] No theme Selected\n" && exit 1
+fi
+for a in $(ls $theme/cfg/); do
   printf "${cb}"
   [ "$allow" = "yes" ] || read -p "Install Paradise for $a? [Yes|No]: " allow
   case $allow in
-    Y*|y*) cp -r $theme/$a $HOME/.config/.
+    Y*|y*) cp -r $theme/cfg/$a $HOME/.config/.
       case $a in
         alacritty) printf "import:\n  - ~/.config/alacritty/paradise.yml\n" >> $HOME/.config/alacritty/alacritty.yml;;
         kitty) printf "include ~/.config/kitty/paradise.conf\n" >> $HOME/.config/kitty/kitty.conf;;
-      esac
-      ;;
+      esac;;
     *) printf "${cr}[-] Skipped\n";;
   esac
 done
+[ "$allow" = "yes" ] || read -p "Install Paradise GTK theme? [Yes|No]: " allow
+case $allow in
+  Y*|y*) cp -rv $theme/thm/* $HOME/.themes/.;;
+  *) printf "${cr}[-] Skipped\n";;
+esac
 printf "${cg}[*] $theme Theme Installed.\n"

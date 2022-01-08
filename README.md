@@ -38,11 +38,11 @@
 ### Install Light
 
 ```
-  Copy the content from 'light/powershell/powershell.json' and paste it in.
+  Copy the content from 'light/oth/powershell/powershell.json' and paste it in.
 ```
 
 ### Install Dark
 
 ```
-  Copy the content from 'dark/powershell/powershell.json' and paste it in.
+  Copy the content from 'dark/oth/powershell/powershell.json' and paste it in.
 ```
