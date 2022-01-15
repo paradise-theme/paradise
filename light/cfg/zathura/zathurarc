@@ -13,9 +13,9 @@ set notification-fg "#151515"
 set notification-bg "#E8E3E3"
 
 set completion-fg "#151515"
-set completion-bg "#E1DCDC"
+set completion-bg "#C9C4C4"
 set completion-group-fg "#151515"
-set completion-group-bg "#E1DCDC"
+set completion-group-bg "#C9C4C4"
 set completion-highlight-fg "#1C1C1C"
 set completion-highlight-bg "#E8E3E3"
 
