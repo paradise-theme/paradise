@@ -35,6 +35,7 @@ for a in $(ls $theme/cfg/); do
       case $a in
         alacritty) printf "import:\n  - ~/.config/alacritty/paradise.yml\n" >> $HOME/.config/alacritty/alacritty.yml;;
         kitty) printf "include ~/.config/kitty/paradise.conf\n" >> $HOME/.config/kitty/kitty.conf;;
+        zathura) printf "include paradise\n" >> $HOME/.config/zathura/zathurarc;;
       esac;;
     *) printf "${cr}[-] Skipped\n";;
   esac
