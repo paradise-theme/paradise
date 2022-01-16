@@ -1,10 +1,3 @@
-set selection-clipboard clipboard
-set window-title-home-tilde true
-set statusbar-home-tilde true
-set adjust-open "best-fit"
-
-set font "Jetbrains Mono"
-
 set notification-error-fg "#B66467"
 set notification-error-bg "#E8E3E3"
 set notification-warning-fg "#D9BC8C" 
@@ -41,8 +34,3 @@ set render-loading-fg "#E8E3E3"
 
 set recolor-lightcolor "#E8E3E3"
 set recolor-darkcolor "#151515"
-
-set adjust-open width
-set recolor true
-map <C-Tab> toggle_statusbar
-set guioptions ""
