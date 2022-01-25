@@ -7,42 +7,30 @@
 </p>
 
 <p align="center">
-  <img src="./preview.png">
+  <img src="./preview/preview.png">
 </p>
 
 # Installation
 ## Clone repo
 
 ```
-  git clone https://github.com/Manas140/paradise.git && cd paradise
+git clone https://github.com/Manas140/paradise.git && cd paradise
 ```
 ## Linux
-### Install dark
 
 ```
-  ./install.sh d
-```
-### Install light
-
-```
-  ./install.sh l
+./install.sh -[l|d|a]
 ```
 
 ## Windows
 
-```
-  Open the settings section by pressing `C+,`
-  You will see a setting button on your bottom left corner and press it
-  Your default editor will show up then scroll down to a part where it says "schemes"
-```
-### Install Light
+- Open the settings section by pressing `C+,`
+- You will see a setting button on your bottom left corner and press it
+- Your default editor will show up then scroll down to a part where it says "schemes"
+- Copy the content from `[light|dark]/oth/powershell/powershell.json` and paste it in.
 
-```
-  Copy the content from 'light/oth/powershell/powershell.json' and paste it in.
-```
-
-### Install Dark
-
-```
-  Copy the content from 'dark/oth/powershell/powershell.json' and paste it in.
-```
+# Screen Shots
+## Nvchad
+<p align="center">
+  <img src="./preview/nvchad-preview.png">
+</p>
