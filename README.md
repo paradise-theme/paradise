@@ -6,34 +6,35 @@
   <a href="https://github.com/Manas140/paradise/network/members"><img src="https://img.shields.io/github/forks/Manas140/paradise?colorA=151515&colorB=D9BC8C&style=for-the-badge&logo=github"></a>
 </p>
 
-# Showcase
-<details><summary><b>Open</b></summary>
+## Supports
 
-- Terminal, Nvim
-<p align="center">
-  <img src="./preview/paradise.png">
-</p>
+### Terminal
+- Alacritty
+- Kitty
 
+### Editor
+- Lite-xl
+- Vscode
+
+### Other
+- Dunst 
+- Gtk
+- PowerShell 
 - Zathura
-<p align="center">
-  <img src="./preview/zathura.png">
-</p>
 
-</details>
-
-# Installation
-## Clone repo
+## Installation
+### Clone repo
 
 ```
 git clone https://github.com/Manas140/paradise.git && cd paradise
 ```
-## Linux
+### Linux
 
 ```
 ./install.sh -[l|d|a]
 ```
 
-## Windows
+### Windows
 
 - Open the settings section by pressing `C+,`
 - You will see a setting button on your bottom left corner and press it

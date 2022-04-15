@@ -1,4 +1,4 @@
-# !/bin/sh
+#!/bin/sh
 
 cr="\033[1;31m"
 cg="\033[1;32m"
@@ -35,11 +35,13 @@ for a in $(ls $theme/cfg/); do
         alacritty) printf "import:\n  - ~/.config/alacritty/paradise.yml\n" >> $HOME/.config/alacritty/alacritty.yml;;
         kitty) printf "include ~/.config/kitty/paradise.conf\n" >> $HOME/.config/kitty/kitty.conf;;
         zathura) printf "include paradise\n" >> $HOME/.config/zathura/zathurarc;;
+        lite-xl) printf "core.reload_module(\"colors.paradise-$theme\")\n" >> $HOME/.config/lite-xl/init.lua;;  
       esac;;
     *) printf "${cr}[-] Skipped\n";;
   esac
 done
 
+printf "${cb}"
 [ "$allow" = "yes" ] || read -p "Install Paradise GTK theme? [Yes|No]: " allow
 case $allow in
   Y*|y*) cp -r $theme/thm/* $HOME/.themes/.;;
