@@ -6,36 +6,43 @@
   <a href="https://github.com/Manas140/paradise/network/members"><img src="https://img.shields.io/github/forks/Manas140/paradise?colorA=151515&colorB=D9BC8C&style=for-the-badge&logo=github"></a>
 </p>
 
+## Pallete
+
+### Dark
+<img src="./preview/dark.png">
+
+### Light
+<img src="./preview/light.png">
+
 ## Supports
 
 ### Terminal
-- Alacritty
-- Kitty
+  - Alacritty
+  - Kitty
 
 ### Editor
-- Lite-xl
-- Vscode
-
+  - Lite-xl
+  - Nvim with [Conscious](https://github.com/Manas140/Conscious), [NvChad](https://github.com/NvChad/NvChad), [DayDream.nvim](https://github.com/Mayooonaiselol/Daydream.nvim)
+  - Vscode with [Plugin](https://github.com/Manas140/paradise-vscode)
+  
 ### Other
-- Dunst 
-- Gtk
-- PowerShell 
-- Zathura
+  - Dunst
+  - Gtk
+  - PowerShell 
+  - Zathura
 
 ## Installation
 ### Clone repo
-
 ```
 git clone https://github.com/Manas140/paradise.git && cd paradise
 ```
-### Linux
 
+#### On Linux 
 ```
-./install.sh -[l|d|a]
+./install.sh -[l|d][a]
 ```
 
-### Windows
-
+#### On Windows
 - Open the settings section by pressing `C+,`
 - You will see a setting button on your bottom left corner and press it
 - Your default editor will show up then scroll down to a part where it says "schemes"
