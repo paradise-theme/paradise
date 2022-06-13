@@ -40,11 +40,3 @@ for a in $(ls $theme/cfg/); do
     *) printf "${cr}[-] Skipped\n";;
   esac
 done
-
-printf "${cb}"
-[ "$allow" = "yes" ] || read -p "Install Paradise GTK theme? [Yes|No]: " allow
-case $allow in
-  Y*|y*) cp -r $theme/thm/* $HOME/.themes/.;;
-  *) printf "${cr}[-] Skipped\n";;
-esac
-printf "${cg}[*] $theme Theme Installed.\n"
