@@ -1,4 +1,4 @@
-<h1 align="center">Paradise</h1>
+<h1 align="center"><i>Paradise<i></h1>
 
 <p align="center">
   <a href="https://github.com/paradise-theme/paradise/stargazers"><img src="https://img.shields.io/github/stars/paradise-theme/paradise?colorA=151515&colorB=B66467&style=for-the-badge&logo=starship"></a>
@@ -26,6 +26,7 @@
   - Vscode with [Plugin](https://github.com/paradise-theme/vscode)
   
 ### Other
+  - Blender
   - Dunst
   - [Gtk](https://github.com/paradise-theme/gtk)
   - PowerShell 
