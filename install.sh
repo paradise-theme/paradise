@@ -34,6 +34,7 @@ for a in $(ls $theme/cfg/); do
       case $a in
         alacritty) printf "import:\n  - ~/.config/alacritty/paradise.yml\n" >> $HOME/.config/alacritty/alacritty.yml;;
         kitty) printf "include ~/.config/kitty/paradise.conf\n" >> $HOME/.config/kitty/kitty.conf;;
+        foot) printf "[main]\ninclude=~/.config/foot/paradise.ini\n" >> $HOME/.config/foot/foot.ini;;
         zathura) printf "include paradise\n" >> $HOME/.config/zathura/zathurarc;;
         lite-xl) printf "core.reload_module(\"colors.paradise-$theme\")\n" >> $HOME/.config/lite-xl/init.lua;;
         blender) mv $HOME/.config/blender/*.xml $HOME/.config/blender/*/scripts/presets/interface_theme/.;;
