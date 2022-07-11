@@ -19,6 +19,7 @@
 ### Terminal
   - Alacritty
   - Kitty
+  - Foot
 
 ### Editor
   - Lite-xl
