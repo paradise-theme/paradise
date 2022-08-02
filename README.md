@@ -1,4 +1,4 @@
-<h1 align="center"><i>Paradise<i></h1>
+<h1 align="center">Paradise</h1>
 
 <p align="center">
   <a href="https://github.com/paradise-theme/paradise/stargazers"><img src="https://img.shields.io/github/stars/paradise-theme/paradise?colorA=151515&colorB=B66467&style=for-the-badge&logo=starship"></a>
@@ -8,11 +8,9 @@
 
 ## Pallete
 
-### Dark
-<img src="./preview/dark.png">
-
-### Light
-<img src="./preview/light.png">
+<p align="center">
+  <img src="./preview/paradise.png">
+</p>
 
 ## Ports 
 
