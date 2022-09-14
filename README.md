@@ -39,11 +39,11 @@ git clone https://github.com/paradise-theme/paradise.git && cd paradise
 
 #### On Linux 
 ```
-./install.sh -[l|d][a]
+./install.sh
 ```
 
 #### On Windows
 - Open the settings section by pressing `C+,`
 - You will see a setting button on your bottom left corner and press it
 - Your default editor will show up then scroll down to a part where it says "schemes"
-- Copy the content from `[light|dark]/oth/powershell/powershell.json` and paste it in.
+- Copy the content from `oth/powershell/powershell.json` and paste it in.
