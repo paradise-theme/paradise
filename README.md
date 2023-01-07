@@ -9,7 +9,7 @@
 ## Pallete
 
 <p align="center">
-  <img src="./preview/paradise.png">
+  <img src="./preview/paradise.png" width="100%" >
 </p>
 
 ## Ports 
@@ -30,6 +30,9 @@
   - [Gtk](https://github.com/paradise-theme/gtk)
   - PowerShell 
   - Zathura
+
+### Website
+  - [Monkeytype](https://monkeytype.com?customTheme=WyIjMTUxNTE1IiwiIzhkYTNiOSIsIiM4ZGEzYjkiLCIjNDI0MjQyIiwiIzFjMWMxYyIsIiNlOGUzZTMiLCIjYjY2NDY3IiwiI2I2NjQ2NyIsIiNiNjY0NjciLCIjYjY2NDY3Il0=)
 
 ## Installation
 ### Clone repo
