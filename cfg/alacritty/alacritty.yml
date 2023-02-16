@@ -1,3 +1,41 @@
+# Terminal Emulator Settings
+window:
+  padding:
+    x: 20
+    y: 20
+  scrolling:
+    history: 15
+
+# Setting zsh as the default shell
+shell:
+    program: /bin/zsh
+
+# Font
+font:
+  normal:
+    family: JetBrains Mono
+    style: Medium
+
+  bold:
+    family: JetBrains Mono
+    style: Bold
+
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+  size: 10
+
+cursor:
+  style: beam
+  blink: true
+  thickness: 0.20
+  unfocused_hollow: false 
+
 colors:
   # Default colors
   primary:

@@ -1,3 +1,16 @@
+set selection-clipboard clipboard
+set window-title-home-tilde true
+set statusbar-home-tilde true
+set adjust-open "best-fit"
+
+set font "Jetbrains Mono"
+
+set adjust-open width
+set recolor true
+set recolor-keephue true
+map <C-Tab> toggle_statusbar
+set guioptions ""
+
 set completion-bg "#151515"
 set completion-fg "#424242"
 set completion-group-bg "#151515"

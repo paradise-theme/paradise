@@ -19,18 +19,14 @@ while getopts "ah" option; do
   esac
 done
 
+printf "${cr}[*] Old Configs Would Be Replaced In The Process${cb}\n"
 for a in $(ls cfg/); do
-  printf "${cb}"
   [ "$allow" = "yes" ] || read -p "Install Paradise for $a? [Yes|No]: " allow
   case $allow in
       Y*|y*) cp -r cfg/$a $HOME/.config/.
+        printf "[+] config for $a copied\n"
       case $a in
-        alacritty) printf "import:\n  - ~/.config/alacritty/paradise.yml\n" >> $HOME/.config/alacritty/alacritty.yml;;
-        kitty) printf "include ~/.config/kitty/paradise.conf\n" >> $HOME/.config/kitty/kitty.conf;;
-        foot) printf "[main]\ninclude=~/.config/foot/paradise.ini\n" >> $HOME/.config/foot/foot.ini;;
-        zathura) printf "include paradise\n" >> $HOME/.config/zathura/zathurarc;;
-        lite-xl) printf "core.reload_module(\"colors.paradise\")\n" >> $HOME/.config/lite-xl/init.lua;;
-        blender) mv $HOME/.config/blender/*.xml $HOME/.config/blender/*/scripts/presets/interface_theme/.;;
+        blender) [ -f $HOME/.config/blender/*/scripts/presets/interface_theme/. ] && mv $HOME/.config/blender/*.xml $HOME/.config/blender/*/scripts/presets/interface_theme/.;;
       esac;;
     *) printf "${cr}[-] Skipped\n";;
   esac
