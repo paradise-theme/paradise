@@ -18,6 +18,7 @@
   - Alacritty
   - Kitty
   - Foot
+  - WezTerm
 
 ### Editor
   - Lite-xl
