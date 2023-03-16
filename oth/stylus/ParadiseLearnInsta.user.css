@@ -1,0 +1,61 @@
+/* ==UserStyle==
+@name Paradise LearnInsta.com
+@namespace github.com/paradise-theme/paradise
+@homepageURL https://github.com/paradise-theme/paradise
+@version 0.0.1
+@updateURL https://github.com/paradise-theme/paradise/raw/main/ParadiseLearnInsta.user.css
+@description Paradise Theme For learninsta.com 
+@author Manas140 (https://github.com/Manas140) 
+@license MIT
+
+@preprocessor stylus
+
+==/UserStyle== */
+
+@-moz-document domain("learninsta.com") {
+  * {
+    transition: 0.5s ease;
+    background-color: #121212 !important;
+    color: #e8e3e3 !important;
+    border: none !important;
+  }
+
+  a:hover, span:hover, h1, h2, h3 {
+    color: #e8e3e3 !important;
+  }
+
+  span, input, select, textarea {
+    background-color: #00000000 !important;
+  }
+
+  input {
+    display: none;
+  }
+
+  summary span {
+    font-weight: bold;
+    color: #e8e3e3 !important;
+  }
+
+  .entry-content a, a {
+    color: #8DA3B9 !important;
+  }
+
+  .nav-primary .genesis-nav-menu .sub-menu a, .genesis-nav-menu .sub-menu a, .footer-widgets, .footer-widgets *, .site-footer, .site-footer * {
+    border: none !important;
+    background-color: #181818 !important;
+    color: #e8e3e3 !important;
+  }
+
+  .nav-primary .genesis-nav-menu .sub-menu a:hover, .genesis-nav-menu .sub-menu a:hover {
+    background-color: #1f1f1f !important;
+  }
+
+  .sidebar li {
+    border-bottom: 1px dotted #c8c3c3;
+  }
+
+  td {
+    border-top: 1px solid #c8c3c3;
+  }
+}

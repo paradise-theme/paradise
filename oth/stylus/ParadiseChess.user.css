@@ -1,0 +1,70 @@
+/* ==UserStyle==
+@name Paradise Chess.com
+@namespace github.com/paradise-theme/paradise
+@homepageURL https://github.com/paradise-theme/paradise
+@version 0.0.1
+@updateURL https://github.com/paradise-theme/paradise/raw/main/ParadiseChess.user.css
+@description Paradise Theme For Chess.com 
+@author Manas140 (https://github.com/Manas140) 
+@license MIT
+
+@preprocessor stylus
+
+==/UserStyle== */
+
+@-moz-document domain("chess.com") {
+  .dark-mode {
+    --globalBackgroundOpaque: #121212 !important;
+    --globalSiteBackground: #121212 !important;
+    --globalColorThemeFull: #e8e3e3;
+    --globalColorThemeLink: #8DA3B9 !important;
+    --globalColorThemeBlueToWhite: #e8e3e3 !important;
+    --globalColorThemeBlueToHighHover: #e8e3e3 !important;
+    --globalOverlayBackground: #121212 !important;
+  }
+
+  body, .board-modal-modal {
+    background-color: #121212 !important;
+    background-image: none !important;
+  }
+
+  .quick-analysis-tally-component .quick-analysis-tally-count span {
+    color: #121212 !important;
+  }
+
+  #sb.open, .nav-panel-theme-bg {
+    background: #181818 !important;
+  }
+
+  .game-over-header-component.game-over-header-userWon, .ui_v5-button-component.ui_v5-button-primary, .quick-analysis-tally-component .quick-analysis-tally-count.quick-analysis-tally-mistake span, .ui_v5-switch-checkbox:not(.ui_v5-switch-readonly):checked + .ui_v5-switch-label, .presence-square-component .presence-square-green {
+    background-color: #8C977D !important;
+  }
+
+  .quick-analysis-tally-component .quick-analysis-tally-count.quick-analysis-tally-mistake, .archived-games-result-won, .archive-games-result-won, .dark-mode .stat-text-data-highest, .dark-mode .stat-text-data-positive, .dark-mode .stat-text-data-won, .dark-mode .sidebar-ratings-highest, .dark-mode .sidebar-ratings-positive, .dark-mode .sidebar-ratings-won {
+    color: #8C977D !important;
+  }
+
+  .quick-analysis-tally-component .quick-analysis-tally-count.quick-analysis-tally-blunder, .archive-games-lost-on-time, .archive-games-result-lost, .archived-games-lost-on-time, .archived-games-result-lost, .stat-text-data-lost, .stat-text-data-lowest, .stat-text-data-negative {
+    color: #B66467 !important;
+  }
+
+  .quick-analysis-tally-component .quick-analysis-tally-count.quick-analysis-tally-blunder span, .presence-square-component .presence-square-red, .timeout-avatar-component {
+    background-color: #B66467 !important;
+  }
+
+  .header-title-component, .league-rating-value-rating, .new-rating-component {
+    color: #e8e3e3 !important;
+  }
+
+  .icon-colored.icon-font-chess.blitz, .icon-colored.icon-font-chess.lightning, .quick-analysis-tally-component .quick-analysis-tally-count.quick-analysis-tally-missedWin {
+    color: #D9BC8C !important;
+  }
+
+  .quick-analysis-tally-component .quick-analysis-tally-count.quick-analysis-tally-missedWin span {
+    background-color: #D9BC8C !important;
+  }
+
+  .game-over-player-component .game-over-player-player .game-over-player-username {
+    margin-top: 1em !important;
+  }
+}
