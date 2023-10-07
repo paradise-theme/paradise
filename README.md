@@ -33,8 +33,8 @@
 
 ### Website
   - [Monkeytype](https://monkeytype.com?customTheme=WyIjMTUxNTE1IiwiIzhkYTNiOSIsIiM4ZGEzYjkiLCIjNDI0MjQyIiwiIzFjMWMxYyIsIiNlOGUzZTMiLCIjYjY2NDY3IiwiI2I2NjQ2NyIsIiNiNjY0NjciLCIjYjY2NDY3Il0=)
-  - [Chess.com](https://raw.githubusercontent.com/paradise-theme/paradise/main/ParadiseChess.user.css)
-  - [Learninsta.com](https://raw.githubusercontent.com/paradise-theme/paradise/main/ParadiseLearnInsta.user.css)
+  - [Chess.com](https://raw.githubusercontent.com/paradise-theme/paradise/main/oth/stylus/ParadiseChess.user.css)
+  - [Learninsta.com](https://raw.githubusercontent.com/paradise-theme/paradise/main/oth/stylus/ParadiseLearnInsta.user.css)
 
 
 ## Installation
